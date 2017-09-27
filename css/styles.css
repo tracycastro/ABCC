@@ -27,7 +27,7 @@ p {
   padding-left: 20px;
   padding-right: 20px; }
 
-.nav-pills .nav-link.active:hover {
+.nav-pills .nav-link.active:hover, #contact input.btn.btn-lg:hover {
   background-color: #ed9051; }
 
 .navbar {
@@ -94,9 +94,18 @@ img.why-icon {
   color: #404041;
   padding-top: 1em; }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 459px) and (max-width: 768px) {
   .card-header-text {
     max-width: 300px; } }
+
+@media only screen and (max-width: 458px) {
+  .card-header-text {
+    max-width: 270px;
+  }
+  .card-header img {
+      display: none;
+  }
+}
 
 #contact label {
   font-size: 1.25rem; }
