@@ -109,3 +109,14 @@ img.why-icon {
 
 #contact label {
   font-size: 1.25rem; }
+
+@media only screen and (max-width: 767px)  {
+
+  #Why, #how, #about, #contact {
+      padding-top: 224px;
+      margin-top: -224px;
+      -webkit-background-clip: content-box;
+      background-clip: content-box;
+  }
+}
+
