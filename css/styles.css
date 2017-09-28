@@ -28,7 +28,7 @@ p {
   padding-right: 20px; }
 
 .nav-pills .nav-link.active:hover, #contact input.btn.btn-lg:hover {
-  background-color: #ed9051; }
+  background-color: #ed9051!important; }
 
 .navbar {
   -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
@@ -58,13 +58,7 @@ img.why-icon {
 .how-accordian a:hover, .how-accordian a:focus {
   text-decoration: none; }
 
-/*#headingOne {
-  border-top: 110px solid transparent;
-  margin-top: -110px;
-  -webkit-background-clip: padding-box;
-  -moz-background-clip: padding;
-  background-clip: padding-box;
-}*/
+
 .card .hide {
   display: none; }
 
@@ -119,4 +113,3 @@ img.why-icon {
       background-clip: content-box;
   }
 }
-
